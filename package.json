@@ -1,0 +1,32 @@
+{
+  "name": "setup_nodejs",
+  "version": "0.0.1",
+  "description": "Setup de projetos em Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanfelipedev/setup_nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Renan Felipe Brito Dantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renanfelipedev/setup_nodejs/issues"
+  },
+  "homepage": "https://github.com/renanfelipedev/setup_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
